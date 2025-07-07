@@ -1,5 +1,5 @@
-import { Component, Input, input, OnInit } from '@angular/core';
-import { IonToolbar, IonTitle } from "@ionic/angular/standalone";
+import { Component, OnInit } from '@angular/core';
+import { IonToolbar} from "@ionic/angular/standalone";
 import { CommonModule } from '@angular/common';
 
 @Component({
