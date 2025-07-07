@@ -5,6 +5,8 @@ ion-toolbar {
     flex-direction: column;
     text-align: center;
     padding: 1rem;
+    --border-width: 0;
+    --border-color: #173A8C;
 
     .logo {
         height: 90px;
@@ -15,7 +17,7 @@ ion-toolbar {
         font-size: 0.8rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
         padding: 0 1rem;
     }
 }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonHeader, IonToolbar, IonContent, IonGrid, IonRow, IonCol, IonCard, IonCardHeader, IonCardContent, IonButton, IonIcon, IonCardTitle } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonContent, IonGrid, IonRow, IonCol, IonCard, IonCardHeader, IonCardContent, IonButton, IonIcon } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import { callOutline, locationOutline, timeOutline } from 'ionicons/icons';
 
@@ -7,7 +7,7 @@ import { callOutline, locationOutline, timeOutline } from 'ionicons/icons';
   selector: 'app-locations',
   templateUrl: 'locations.page.html',
   styleUrls: ['locations.page.scss'],
-  imports: [IonCardTitle, IonIcon, IonButton, IonCardContent, IonCardHeader, IonCard, IonCol, IonRow, IonGrid, IonHeader, IonToolbar, IonContent],
+  imports: [IonIcon, IonButton, IonCardContent, IonCardHeader, IonCard, IonCol, IonRow, IonGrid, IonHeader, IonToolbar, IonContent],
 })
 export class LocationsPage {
   constructor() {
