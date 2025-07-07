@@ -1,0 +1,21 @@
+ion-toolbar {
+    --background: #173A8C;
+    --min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+
+    .logo {
+        height: 90px;
+    }
+
+    .subtitle {
+        color: #C8D7F3;
+        font-size: 0.8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin-bottom: 0;
+        padding: 0 1rem;
+    }
+}
